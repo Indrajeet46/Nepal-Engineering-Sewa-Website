@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: rgb(17, 1, 1);
+    font-size: 7rem;
+    /* font-family: 'Sacramento', cursive; */
+    margin-bottom: 0;
+}
+h2{
+    color:rgb(36, 71, 86) ;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color:rgb(21, 125, 169) ;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    line-height: 2;
+    font-weight: normal;
+    color: rgb(65, 102, 118);
+}
+
+.skills{
+    background-color: rgb(237, 246, 236);
+    width: 60%;
+    margin: 1rem auto;
+    padding: 3rem;
+    text-align: left;
+    border-radius: 5rem;
+}
+.skill-row{
+    margin: 1rem;
+    padding: 1rem;
+    /* width: 50%; */
+    
+}
+
+#home{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+hr {
+    margin: 3rem auto;
+    color:rgb(95, 190, 157) ;
+    background-color: E4F1FF;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0;
+    width: 5%;
+    border-width: 5px;
+}
+.skillimg{
+    /* margin: 1rem; */
+    height: 5rem;
+    width: 5rem;
+}
+#mys{
+    text-align: center;
+    
+}
+#draw, #draw2{
+    float: left;
+    margin-right: 3rem;
+}
+#gui, #gui2{
+    margin-left: 3rem;
+    float: right;
+}
+
+
+
+
+
+
+.bottom-container{
+    padding: 0 .1rem;
+    margin: 0 .2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    /* padding-bottom: .1rem; */
+
+}
+#cpy{
+    font-size: .8rem;
+}
+.log{
+    padding: 1rem 4rem;
+    display: flex;
+}
+.log1{
+    padding: 1rem 4rem;
+    display: flex;
+}
+#logo{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+}
+#logodetail{
+    display: flex;
+    margin: .5rem;
+    font-size: 1rem;
+    align-content: center;
+    justify-content: center;
+}
+.im{
+    margin: 1rem 1rem ;
+    height: 2rem;
+    width: 2rem;
+}
+.im:hover{
+    background-color: #fff;
+    border-radius: 1rem;
+    border: .3rem solid aqua;
+}
+.links{
+    display: flex;
+}
+a:hover, button:hover{
+    cur
+}

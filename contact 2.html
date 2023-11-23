@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./landingpage.css">
+    <link rel="stylesheet" href="./exp.css">
+    <style>
+        .text-gray-600 {
+            background-color: #e8f8f5;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navigation">
+                <div class="log1">
+                    <img id="logo" src="./psclog.jpeg" alt="logo">
+                    <p id="logodetail">Nepal Engineering Sewa </p>
+                </div>
+                <div class="log">
+                    <!-- <div class="items"><a href="./index.html">Home</a></div> -->
+                    <div ><a href="./index.html"><img class="items" id="home" src="./home.jpeg" alt="home"></a></div>
+                    <!-- <div class="items"><a href="./notice.html">Notices</a></div> -->
+                    <div class="items"><a href="./notes.html">Notes</a></div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">Notices
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            
+                            <a href="./vacancy.html">Vacancy</a>
+                            <a href="./writtenresult.html">Written Result</a>
+                            <a href="./posting.html">Posting</a>
+                            <a href="./others.html">Others</a>
+                        </div>
+                    </div>
+                    
+                    <div class="items"><a href="./gorkhapatra.html">Gorkhapatra</a></div>
+                    <!-- <div class="items"><a href="./mcq.html">MCQs</a></div> -->
+                    <div class="dropdown items">
+                        <button class="dropbtn ">MCQs
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            
+                            <a href="./seventhmcq.html">Engineer</a>
+                            <a href="./fifthmcq.html">Sub- Engineer</a>
+                            <a href="./fourthmcq.html">Asst. Sub-Engineer</a>
+                           
+                        </div>
+                    </div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">More
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            
+                            <a href="./shortqns.html">Short Q&A</a>
+                            <a href="./qtnbank.html">Question Bank</a>
+                            <a href="./syllabus.html">Syllabus</a>
+                            <a href="./contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>My Details</h1>
+        <p>Name:Anish</p>
+        <p>843858398539</p>
+        <p>fjasjf@gmail.com</p>
+    
+        <p>You can fill out this form to give me sugggestions::</p>
+    
+        <!-- action button takes the client to the page where you mentioned when he hits the submit button -->
+        <!-- post pastes the data entered by client in email -->
+        <!-- enctype inputs all data in body of email as plain text -->
+    
+        <form action="mailto:anishks494@gmail.com" method="post" enctype="text/plain">         
+            <table>
+                <tr>
+    
+                    <!-- the text written in label is visible to client but not to receiver -->
+                    <!-- user receives data that are mentioned content in name section of input -->
+    
+                    <td> <label for="">Name:</label></td>
+                    <td> <input type="text" name="Name:"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email:</label></td>
+                    <td><input type="email" name="Email"></td>
+                </tr>
+                <!-- <tr>
+                    <td><label for="">Password:</label></td>
+                    <td><input type="password" name="password"> </td>
+                </tr> -->
+                <tr>
+                    <td><label for="">Date:</label></td>
+                    <td> <input type="date" name="date"> </td>
+                </tr>
+            </table>
+            <br>
+            <label for="">Did you face any problem? Please  <br></label>
+            <textarea name="Message" id="" cols="80" rows="10"></textarea>
+            <br>
+            <br>
+            <label for="">Your Message: <br></label>
+            <textarea name="Message" id="" cols="80" rows="10"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    
+      
+
+
+
+
+
+    </main>
+    <div class="bottom-container">
+
+        <div class="log1">
+            <img id="logo" src="./psclog.jpeg" alt="logo">
+            <p id="logodetail">Nepal Engineering Sewa |<span id="cpy">
+                    &copy 2023 Nepal Engineering Sewa.
+                </span></p>
+        </div>
+
+        <div class="links">
+            <a class="footer-link" href="mailto:anishks494@gmail.com"><img class="im" src="./emailemoji.png"
+                    alt="email"></a>
+            <a class="footer-link" href="https://www.linkedin.com/in/anish-kumar-singh-1517b0275"><img class="im"
+                    src="./linkedin.png" alt="linkedin"></a>
+            <a class="footer-link" href="https://twitter.com/AnishKumar17142"><img class="im" src="./twitter.png"
+                    alt="twitter"></a>
+            <a class="footer-link"
+                href="https://instagram.com/anishkumarsingh288?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><img class="im"
+                    src="./insta.png" alt="instagram"></a>
+            <a class="footer-link" href="https://www.facebook.com/profile.php?id=100092716204870&mibextid=ZbWKwL"><img
+                    class="im" src="./fb.png" alt="facebook"></a>
+
+        </div>
+</body>
+
+</html>
