@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./exp.css">
+    <link rel="stylesheet" href="./landingpage.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .intro {
+            margin: 2rem;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .content {
+            border-radius: 3rem;
+            background-color: #e1ebec;
+            margin: 2rem;
+            padding: 2rem;
+        }
+
+        .hero>a {
+            text-decoration: none;
+        }
+
+        .herosection {
+            background-color: #dcf2f4;
+            margin: 3rem;
+            padding: 2rem;
+            border: .2rem solid rgb(175, 185, 213);
+            display: flex;
+            justify-content: space-around;
+            border-radius: 3rem;
+
+        }
+
+        .hero,
+        .hero:hover {
+            display: flex;
+            height: 12rem;
+            width: 12rem;
+            /* border: .2rem solid rgb(191, 203, 191); */
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            border-radius: 4rem;
+            /* background-color: #fff; */
+
+
+        }
+
+        #gk,
+        #iq,
+        #subjective,
+        #technical {
+            font-size: 2.5rem;
+        }
+
+
+
+
+
+
+
+
+
+
+        @media only screen and (max-width:775px) {
+            .intro {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width:1006px) {
+
+            .herosection {
+                flex-wrap: wrap;
+                width: 100%;
+                margin: .5rem .1rem;
+                padding: .3rem .1rem;
+                justify-content: center;
+
+
+            }
+
+            header {
+                z-index: 9999;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navigation h-nav-resp">
+                <div class="log1">
+                    <img id="logo" src="./psclog.jpeg" alt="logo">
+                    <p class="logodetail">Nepal Engineering Sewa </p>
+                </div>
+                <div class="log v-class-resp">
+                    <!-- <div class="items"><a href="./index.html">Home</a></div> -->
+                    <div><a href="./index.html"><img class="items" id="home" src="./home.jpeg" alt="home"></a></div>
+                    <!-- <div class="items"><a href="./notice.html">Notices</a></div> -->
+                    <div class="items"><a href="./notes.html">Notes</a></div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">Notices
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+
+                            <a href="./vacancy.html">Vacancy</a>
+                            <a href="./writtenresult.html">Written Result</a>
+                            <a href="./posting.html">Posting</a>
+                            <a href="./others.html">Others</a>
+                        </div>
+                    </div>
+
+                    <div class="items"><a href="./gorkhapatra.html">Gorkhapatra</a></div>
+                    <!-- <div class="items"><a href="./mcq.html">MCQs</a></div> -->
+                    <div class="dropdown items">
+                        <button class="dropbtn ">MCQs
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+
+                            <a href="./seventhmcq.html">Engineer</a>
+                            <a href="./fifthmcq.html">Sub- Engineer</a>
+                            <a href="./fourthmcq.html">Asst. Sub-Engineer</a>
+
+                        </div>
+                    </div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">More
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+
+                            <a href="./shortqns.html">Short Q&A</a>
+                            <a href="./qtnbank.html">Question Bank</a>
+                            <a href="./syllabus.html">Syllabus</a>
+                            <a href="./contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="burger">
+                <div class="line"> </div>
+                <div class="line"> </div>
+                <div class="line"> </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="intro">
+            <pre>
+                Exciting changes on our website!
+    
+                New look, more content, enhanced features!
+                
+                Improved search, mobile-friendly experience!
+                
+                Visit now and explore!
+                
+                Share your feedback, let us know your thoughts!
+                
+                Thank you for your support! 🙌</pre>
+        </div>
+        <main>
+            <div class="herosection">
+                <div>
+                    <div class="dropdown items">
+                        <button class="dropbtn hero" id="gk">GK
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            <a href="./seventhgk.html">Engineer</a>
+                            <a href="./fifthgk.html">Sub-Engineer</a>
+                            <a href="./fourthgk.html">Asst. Sub-Engineer</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown items">
+                        <button class="dropbtn hero" id="iq">IQ
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            <a href="./seventhiq.html">Engineer</a>
+                            <a href="./fifthiq.html">Sub-Engineer</a>
+                            <a href="./fourthiq.html">Asst. Sub-Engineer</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown items">
+                        <button class="dropbtn hero" id="technical">Technical
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            <a href="./seventhtech.html">Engineer</a>
+                            <a href="./fifthtech.html">Sub-Engineer</a>
+                            <a href="./fourthtech.html">Asst. Sub-Engineer</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="dropdown items">
+                        <button class="dropbtn hero" id="subjective">Subjective
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            <a href="./seventhsub.html">Engineer</a>
+                            <a href="./fifthsub.html">Sub-Engineer</a>
+                            <a href="./fourthsub.html">Asst. Sub-Engineer</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+
+
+    </div>
+    <div class="bottom-container">
+        <div class="log1">
+            <img id="logo" src="./psclog.jpeg" alt="logo">
+            <p class="logodetail">Nepal Engineering Sewa |<span id="cpy">
+                    &copy 2023 Nepal Engineering Sewa.
+                </span></p>
+        </div>
+
+        <div class="links">
+            <a class="footer-link" href="mailto:engineeringsewapsc@gmail.com"><img class="im" src="./mail.png"
+                    alt="email"></a>
+            <a class="footer-link" href="https://www.facebook.com/profile.php?id=100092716204870&mibextid=ZbWKwL"><img
+                    class="im" src="./facebook.png" alt="facebook"></a>
+            <a class="footer-link" href="https://www.instagram.com/nepalengineeringsewa/"><img class="im"
+                    src="./insta.png" alt="instagram"></a>
+            <a class="footer-link" id="twit" href="https://twitter.com/NepalEnggSewa"><img class="im"
+                    src="./twitter.png" alt="twitter"></a>
+            <!-- <a class="footer-link" href="https://www.tiktok.com/@nepal_engineering_sewa"><img class="im" src="./tiktok.png"
+                            alt="tiktok"></a> -->
+            <a class="footer-link" href="https://www.youtube.com/@NepalEngineeringSewa"><img class="im"
+                    src="./youtube.png" alt="youtube"></a>
+            <a class="footer-link" href=""><img class="im" src="./whatsapp.png" alt="whatsapp"></a>
+        </div>
+    </div>
+    <script src="./resp.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: #fff;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
+/* responsiveness */
+ @media only screen and (max-width:1006px){ 
+    *{
+        padding: .0rem;
+        margin: .0rem;
+        max-width: 100%;
+    }
+
+ .log{ 
+    transition: all .5s ease;
+    padding: .5rem 1rem;
+    flex-direction: column;
+    
+}
+.log1{
+    
+    padding: .5rem 1rem;
+}
+.burger{
+    display:block ;
+}
+.h-nav-resp{
+    height: 60px;
+}
+
+.v-class-resp{
+    opacity: 0;
+}
+
+.logodetail{
+   display: none;
+}
+#twit{
+    display: none;
+}
+
+
+ }
+
+
+
+
+
+
+
+
+    
+  

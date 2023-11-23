@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./exp.css">
+    <link rel="stylesheet" href="./landingpage.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .text-gray-600 {
+            background-color: #e8f8f5;
+        }
+        .f, .ourinfo{
+            border-radius: 4rem;
+            background-color: #def4f1;
+            padding: 3rem;
+            margin: 2rem;
+            border: .1rem solid rgb(110, 169, 169);
+        }
+        main{
+           
+            margin: 2rem 4rem;
+        }
+        #fill{
+            text-align: center;
+            color: rgb(72, 72, 243);
+            /* margin: auto; */
+        }
+       
+        .sbtn{
+            text-align: center;
+            padding: .5rem 1rem;
+            background-color: #82abe4;
+            border-radius: 2rem;
+        }
+        h2{
+            font-size: larger;
+            font-style: none;
+        }
+        h1{
+            font-style: italic;
+            font-size: larger;
+        }
+
+
+
+
+
+        @media only screen and (max-width:1006px){ 
+            main{
+                margin: .3rem;
+                padding: .5rem;
+            }
+            .f, .ourinfo{
+                border-radius: 2rem;
+                margin: .3rem;
+                padding: .5rem;
+            }
+            #fill{
+                margin: 1rem;
+            }
+        }
+       
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navigation h-nav-resp">
+                <div class="log1">
+                    <img id="logo" src="./psclog.jpeg" alt="logo">
+                    <p class="logodetail">Nepal Engineering Sewa </p>
+                </div>
+                <div class="log v-class-resp">
+                    <!-- <div class="items"><a href="./index.html">Home</a></div> -->
+                    <div ><a href="./index.html"><img class="items" id="home" src="./home.jpeg" alt="home"></a></div>
+                    <!-- <div class="items"><a href="./notice.html">Notices</a></div> -->
+                    <div class="items"><a href="./notes.html">Notes</a></div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">Notices
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            
+                            <a href="./vacancy.html">Vacancy</a>
+                            <a href="./writtenresult.html">Written Result</a>
+                            <a href="./posting.html">Posting</a>
+                            <a href="./others.html">Others</a>
+                        </div>
+                    </div>
+                    
+                    <div class="items"><a href="./gorkhapatra.html">Gorkhapatra</a></div>
+                    <!-- <div class="items"><a href="./mcq.html">MCQs</a></div> -->
+                    <div class="dropdown items">
+                        <button class="dropbtn ">MCQs
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            
+                            <a href="./seventhmcq.html">Engineer</a>
+                            <a href="./fifthmcq.html">Sub- Engineer</a>
+                            <a href="./fourthmcq.html">Asst. Sub-Engineer</a>
+                           
+                        </div>
+                    </div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">More
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            
+                            <a href="./shortqns.html">Short Q&A</a>
+                            <a href="./qtnbank.html">Question Bank</a>
+                            <a href="./syllabus.html">Syllabus</a>
+                            <a href="./contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="burger">
+                <div class="line"> </div>
+                <div class="line"> </div>
+                <div class="line"> </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+       <div class="ourinfo">
+        <h1>Our Details</h1>
+        <h2>Nepal Engineering Sewa</h2>
+        <p>Mobile Number: 9803990020</p>
+        <p>Email: engineeringsewapsc@gmail.com</p>
+       </div>
+    
+        <p id="fill">You can feel free to fill out this form to give feedback and sugggestions to our team :</p>
+    
+        
+    
+        <div class="f">
+            <form action="mailto:engineeringsewapsc@gmail.com" method="post" enctype="text/plain">         
+              
+              
+        
+                        <td class="tds"> <label for="">Your Name:</label></td>
+                        <br>
+                        <td class="tds"> <input type="text" name="Name:"></td>
+                    <!-- </tr> -->
+                    <br>
+                  
+                        <td class="tds"><label for="">Email:</label></td>
+                        <br>
+                        <td class="tds"><input type="email" name="Email"></td>
+                  
+                    <br>
+                    <br>
+                 
+                        <td><label for="">Date:</label></td>
+                        <td> <input type="date" name="Date"> </td>
+                  
+    <br>
+                    
+                   
+                    <br>
+                    <label for="">How was your experience?  <br></label>
+                    <textarea name="User- Experience" id="" cols="80" rows="5"></textarea>
+                    <br>
+                    <br>
+                    <label for="">Did you face any problem? Please mention (if any)! <br></label>
+                    <textarea name="Problem Faced" id="" cols="80" rows="5"></textarea>
+                    <br>
+                    <br>
+                    <label for="">Your Suggestion(s): <br></label>
+                    <textarea name="Suggestion" id="" cols="80" rows="10"></textarea>
+                    <br>
+                    <br>
+                    
+                        <input class="sbtn"  type="submit">
+                   
+                   
+                   
+                
+            </form>
+        
+          
+    
+    
+    
+        </div>
+
+
+    </main>
+    <div class="bottom-container">
+        <div class="log1">
+            <img id="logo" src="./psclog.jpeg" alt="logo">
+            <p class="logodetail">Nepal Engineering Sewa |<span id="cpy">
+                    &copy 2023 Nepal Engineering Sewa. 
+                </span></p>
+        </div>
+    
+        <div class="links">
+            <a class="footer-link" href="mailto:engineeringsewapsc@gmail.com"><img class="im" src="./mail.png"
+                    alt="email"></a>
+            <a class="footer-link" href="https://www.facebook.com/profile.php?id=100092716204870&mibextid=ZbWKwL"><img
+                 class="im" src="./facebook.png" alt="facebook"></a>
+                 <a class="footer-link"
+                href="https://www.instagram.com/nepalengineeringsewa/"><img class="im"
+                    src="./insta.png" alt="instagram"></a>
+                    <a class="footer-link" href="https://twitter.com/NepalEnggSewa" id="twit"><img class="im" src="./twitter.png"
+                        alt="twitter"></a>
+                        <!-- <a class="footer-link" href="https://www.tiktok.com/@nepal_engineering_sewa"><img class="im" src="./tiktok.png"
+                            alt="tiktok"></a> -->
+                    <a class="footer-link"
+                href="https://www.youtube.com/@NepalEngineeringSewa"><img class="im"
+                    src="./youtube.png" alt="youtube"></a>
+                    <a class="footer-link"
+                    href=""><img class="im"
+                        src="./whatsapp.png" alt="whatsapp"></a>
+        </div>
+    </div>
+    <script src="./resp.js"></script>
+</body>
+
+</html>
