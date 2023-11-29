@@ -1,0 +1,2269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structural Designs </title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./exp.css">
+    <link rel="stylesheet" href="./landingpage.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+
+    <style>
+        main {
+            background-color: #fff;
+        }
+
+        .body {
+            background-color: #fff;
+        }
+
+        .text-gray-600 {
+            background-color: #e1e5e4;
+        }
+
+        .subhead {
+            color: blue;
+        }
+
+        .entry-content {
+
+            background-color: #eff3f2;
+            padding: .5rem 5rem;
+            border-radius: 3rem;
+        }
+
+        h3 {
+
+
+            font-weight: 500;
+            color: black;
+        }
+
+        p {
+            color: black;
+        }
+
+        .bttn {
+            padding: .2rem;
+            border-radius: 1rem;
+            font-size: 1rem;
+            color: rgb(10, 31, 31);
+            background-color: #cfdfd5;
+            border: .1rem solid rgb(104, 132, 164);
+        }
+
+
+        @media only screen and (max-width:1006px){
+            .entry-content{
+                padding: .5rem 1.5rem; 
+            }
+         }
+    </style>
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="navigation h-nav-resp">
+                <div class="log1">
+                    <img id="logo" src="./psclog.jpeg" alt="logo">
+                    <p class="logodetail">Nepal Engineering Sewa </p>
+                </div>
+                <div class="log v-class-resp">
+                    <!-- <div class="items"><a href="./index.html">Home</a></div> -->
+                    <div><a href="./index.html"><img class="items" id="home" src="./home.jpeg" alt="home"></a></div>
+                    <!-- <div class="items"><a href="./notice.html">Notices</a></div> -->
+                    <div class="items"><a href="./notes.html">Notes</a></div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">Notices
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+
+                            <a href="./vacancy.html">Vacancy</a>
+                            <a href="./writtenresult.html">Written Result</a>
+                            <a href="./posting.html">Posting</a>
+                            <a href="./others.html">Others</a>
+                        </div>
+                    </div>
+
+                    <div class="items"><a href="./gorkhapatra.html">Gorkhapatra</a></div>
+                    <!-- <div class="items"><a href="./mcq.html">MCQs</a></div> -->
+                    <div class="dropdown items">
+                        <button class="dropbtn ">MCQs
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+
+                            <a href="./seventhmcq.html">Engineer</a>
+                            <a href="./fifthmcq.html">Sub- Engineer</a>
+                            <a href="./fourthmcq.html">Asst. Sub-Engineer</a>
+
+                        </div>
+                    </div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">More
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+
+                            <a href="./shortqns.html">Short Q&A</a>
+                            <a href="./qtnbank.html">Question Bank</a>
+                            <a href="./syllabus.html">Syllabus</a>
+                            <a href="./contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="burger">
+                <div class="line"> </div>
+                <div class="line"> </div>
+                <div class="line"> </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="entry-content" itemprop="text">
+            <h3>1) The factor of safety for
+
+               
+            </h3>
+            <p>a) 
+Steel and concrete are same 
+            </p>
+            <p>b) 
+Steel is lower than that for concrete 
+            </p>
+            <p>c) 
+Steel is higher than that for concrete 
+            </p>
+            <p>d) 
+None of the above 
+            </p>
+            <button class="bttn" onclick="a1()">View Answer</button>
+            <span id="a1"></span>
+            <script ez-screx="true">function a1() { document.getElementById("a1").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>
+        <div class="entry-content" itemprop="text">
+            <h3>
+                2) Maximum quantity of water needed per 50 kg of cement for M 15 grade of concrete is
+
+            </h3>
+            <p>a) 
+34 litres 
+            </p>
+            <p>b) 30 litres 
+
+            </p>
+            <p>c) 28 litres 
+
+            </p>
+            <p>d) 32 litres 
+
+            </p>
+            <button class="bttn" onclick="a32()">View Answer</button>
+            <span id="a32"></span>
+            <script ez-screx="true">function a32() { document.getElementById("a32").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                3) The individual variation between test strength of sample should not be more than
+
+            </h3>
+            <p>a) <u>+</u> 10% of average
+
+            </p>
+            <p>b) <u>+</u> 20% of average
+
+            </p>
+            <p>c) 
+                <u>+</u> 5% of average
+            </p>
+            <p>d) 
+                <u>+</u> 15% of average
+            </p>
+            <button class="bttn" onclick="a3()">View Answer</button>
+            <span id="a3"></span>
+            <script ez-screx="true">function a3() { document.getElementById("a3").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>4) According to IS: 456-1978, the flexural strength of concrete is
+
+               
+            </h3>
+            <p>a) Inversely proportional to square root of compressive strength 
+
+            </p>
+            <p>b) Inversely proportional to compressive strength 
+
+            </p>
+            <p>c) directly proportional to square root of compressive strength 
+            </p>
+            <p>d) directly proportional to compressive strength 
+
+            </p>
+            <button class="bttn" onclick="a4()">View Answer</button>
+            <span id="a4"></span>
+            <script ez-screx="true">function a4() { document.getElementById("a4").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>5) According to IS: 456- 1978, minimum slenderness ratio for a short column is
+
+               
+            </h3>
+            <p>a) 
+less than 12
+            </p>
+            <p>b) 
+less than 18 
+            </p>
+            <p>c) between 18 and 24 
+
+            </p>
+            <p>d) more than 24 
+
+            </p>
+            <button class="bttn" onclick="a5()">View Answer</button>
+            <span id="a5"></span>
+            <script ez-screx="true">function a5() { document.getElementById("a5").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                6) Lap length in compression shall not be less than
+
+            </h3>
+            <p>a) 
+15 dia 
+            </p>
+            <p>b) 
+20 dia 
+            </p>
+            <p>c) 
+24 dia 
+            </p>
+            <p>d) 30 dia 
+
+            </p>
+            <button class="bttn" onclick="a6()">View Answer</button>
+            <span id="a6"></span>
+            <script ez-screx="true">function a6() { document.getElementById("a6").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>7) According to IS: 456-1978, the maximum reinforcement in a column is
+
+               
+            </h3>
+            <p>a) 
+2%
+            </p>
+            <p>b) 4%
+
+            </p>
+            <p>c) 6%
+
+            </p>
+            <p>d) 8%
+
+            </p>
+            <button class="bttn" onclick="a7()">View Answer</button>
+            <span id="a7"></span>
+            <script ez-screx="true">function a7() { document.getElementById("a7").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>8) A higher modular ratio shows
+
+               
+            </h3>
+            <p>a) 
+lower compressive strength of concrete 
+            </p>
+            <p>b) lower tensile strength of steel 
+
+            </p>
+            <p>c) higher tensile strength of steel 
+
+            </p>
+            <p>d) higher compressive strength of concrete 
+
+            </p>
+            <button class="bttn" onclick="a8()">View Answer</button>
+            <span id="a8"></span>
+            <script ez-screx="true">function a8() { document.getElementById("a8").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                9) The average permissible stress in bond for plain bars in tension is
+
+            </h3>
+            <p>a) decreased by 25% for bars in compression 
+
+            </p>
+            <p>b) decreased by 10% for bars in compression 
+
+            </p>
+            <p>c) increased by 10% for bars in compression 
+
+            </p>
+            <p>d) 
+increased by 25% for bars in compression 
+            </p>
+            <button class="bttn" onclick="a9()">View Answer</button>
+            <span id="a9"></span>
+            <script ez-screx="true">function a9() { document.getElementById("a9").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>10) The minimum diameter of longitudinal bars in a column is
+
+               
+            </h3>
+            <p>a) 6 mm 
+
+            </p>
+            <p>b) 8 mm
+
+            </p>
+            <p>c) 12 mm 
+
+            </p>
+            <p>d) 16 mm
+
+            </p>
+            <button class="bttn" onclick="a10()">View Answer</button>
+            <span id="a10"></span>
+            <script ez-screx="true">function a10() { document.getElementById("a10").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>11) Maximum percentage reinforcement in case of slabs is limited to
+
+               
+            </h3>
+            <p>a) 
+2
+            </p>
+            <p>b) 6
+
+            </p>
+            <p>c) 8
+
+            </p>
+            <p>d) 4
+
+            </p>
+            <button class="bttn" onclick="a11()">View Answer</button>
+            <span id="a11"></span>
+            <script ez-screx="true">function a11() { document.getElementById("a11").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>12) The partial safety factor for steel as per IS: 456 —1978 is taken as
+
+               
+            </h3>
+            <p>a) 
+1.65
+            </p>
+            <p>b) 1.35 
+
+            </p>
+            <p>c) 1.15
+
+            </p>
+            <p>d) 1.50
+
+            </p>
+            <button class="bttn" onclick="a12()">View Answer</button>
+            <span id="a12"></span>
+            <script ez-screx="true">function a12() { document.getElementById("a12").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>13) The effect of creep on modular ratio is
+
+               
+            </h3>
+            <p>a) to decrease it 
+
+            </p>
+            <p>b) to increase it 
+
+            </p>
+            <p>c) either to decrease or to increase 
+
+            </p>
+            <p>d) to keep it unchanged 
+
+            </p>
+            <button class="bttn" onclick="a13()">View Answer</button>
+            <span id="a13"></span>
+            <script ez-screx="true">function a13() { document.getElementById("a13").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                14) The creep strains are
+
+            </h3>
+            <p>a) 
+caused due to dead loads only 
+            </p>
+            <p>b) caused due to live loads only 
+
+            </p>
+            <p>c) caused due to both dead live loads 
+
+            </p>
+            <p>d) independent of loads 
+
+            </p>
+            <button class="bttn" onclick="a14()">View Answer</button>
+            <span id="a14"></span>
+            <script ez-screx="true">function a14() { document.getElementById("a14").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>15) A beam curved in plan is designed for
+
+               
+            </h3>
+            <p>a) 
+bending moment and shear 
+            </p>
+            <p>b) bending moment and torsion 
+
+            </p>
+            <p>c) shear and torsion 
+
+            </p>
+            <p>d) bending moment, shear and torsion 
+
+            </p>
+            <button class="bttn" onclick="a15()">View Answer</button>
+            <span id="a15"></span>
+            <script ez-screx="true">function a15() { document.getElementById("a15").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                16) High carbon content in the steel causes
+
+            </h3>
+            <p>a) increase in both tensile strength ductility 
+
+            </p>
+            <p>b) decrease in tensile strength increase in ductility 
+
+            </p>
+            <p>c) decrease in both tensile strength ductility 
+
+            </p>
+            <p>d) increase in tensile strength decrease in ductility 
+
+            </p>
+            <button class="bttn" onclick="a16()">View Answer</button>
+            <span id="a16"></span>
+            <script ez-screx="true">function a16() { document.getElementById("a16").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                17) In concrete, use of angular crushed aggregate in place of natural gravel affects
+
+            </h3>
+            <p>a) compressive strength 
+
+            </p>
+            <p>b) direct tensile strength 
+
+            </p>
+            <p>c) flexural tensile strength 
+
+            </p>
+            <p>d) split tensile strength 
+
+            </p>
+            <button class="bttn" onclick="a17()">View Answer</button>
+            <span id="a17"></span>
+            <script ez-screx="true">function a17() { document.getElementById("a17").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>18) Ratio of compressive strength to tensile strength of concrete
+
+               
+            </h3>
+            <p>a) increase with age 
+
+            </p>
+            <p>b) decrease with age 
+
+            </p>
+            <p>c) remains constant 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a18()">View Answer</button>
+            <span id="a18"></span>
+            <script ez-screx="true">function a18() { document.getElementById("a18").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>19) According to Indian Standards, the grading of fine aggregates is divided into
+
+               
+            </h3>
+            <p>a) two zones 
+
+            </p>
+            <p>b) three zones 
+
+            </p>
+            <p>c) four zones 
+
+            </p>
+            <p>d) five zones 
+
+            </p>
+            <button class="bttn" onclick="a19()">View Answer</button>
+            <span id="a19"></span>
+            <script ez-screx="true">function a19() { document.getElementById("a19").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                20) The bond strength between steel and concrete is due to
+
+            </h3>
+            <p>a) 
+friction 
+            </p>
+            <p>b) adhesion 
+
+            </p>
+            <p>c) both friction and adhesion 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a20()">View Answer</button>
+            <span id="a20"></span>
+            <script ez-screx="true">function a20() { document.getElementById("a20").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>21) The diameter of needle used in V- apparatus for the determination of initial setting time is prescribed as
+
+               
+            </h3>
+            <p>a) 
+1 mm
+            </p>
+            <p>b) 0.5 mm
+
+            </p>
+            <p>c) 10 mm
+
+            </p>
+            <p>d) 5 mm
+
+            </p>
+            <button class="bttn" onclick="a21()">View Answer</button>
+            <span id="a21"></span>
+            <script ez-screx="true">function a21() { document.getElementById("a21").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>22) The ultimate strength of the steel used for pre-stressing is nearly
+
+               
+            </h3>
+            <p>a) 
+1500 N/mm<sup>2</sup>
+            </p>
+            <p>b) 415 N/mm<sup>2</sup>
+
+            </p>
+            <p>c) 560 N/mm<sup>2</sup>
+
+            </p>
+            <p>d) 250 N/mm<sup>2</sup>
+
+            </p>
+            <button class="bttn" onclick="a22()">View Answer</button>
+            <span id="a22"></span>
+            <script ez-screx="true">function a22() { document.getElementById("a22").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>23) A doubly reinforced beam is considered less economical than a singly reinforced beam because
+
+               
+            </h3>
+            <p>a) tensile steel required is more than that for a balanced section 
+
+            </p>
+            <p>b) concrete is not stressed to its full value 
+
+            </p>
+            <p>c) compressive steel is under stressed 
+
+            </p>
+            <p>d) 
+shear reinforcement is more 
+            </p>
+            <button class="bttn" onclick="a23()">View Answer</button>
+            <span id="a23"></span>
+            <script ez-screx="true">function a23() { document.getElementById("a23").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>24) In limit state design of reinforced concrete, deflection is computed by using
+
+               
+            </h3>
+            <p>a) tangent modulus 
+
+            </p>
+            <p>b) initial tangent modulus 
+
+            </p>
+            <p>c) short and long term values of Young's Modulus 
+
+            </p>
+            <p>d) secant modulus 
+
+            </p>
+            <button class="bttn" onclick="a24()">View Answer</button>
+            <span id="a24"></span>
+            <script ez-screx="true">function a24() { document.getElementById("a24").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                25) Drops are provided in flat slab to resist
+
+            </h3>
+            <p>a) bending moment 
+
+            </p>
+            <p>b) torsion 
+
+            </p>
+            <p>c) shear 
+
+            </p>
+            <p>d) thrust 
+
+            </p>
+            <button class="bttn" onclick="a25()">View Answer</button>
+            <span id="a25"></span>
+            <script ez-screx="true">function a25() { document.getElementById("a25").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                26) In limit state approach, spacing of main reinforcement controls primarily.
+
+            </h3>
+            <p>a) cracking 
+
+            </p>
+            <p>b) collapse 
+            </p>
+            <p>c) 
+deflection
+            </p>
+            <p>d) durability 
+
+            </p>
+            <button class="bttn" onclick="a26()">View Answer</button>
+            <span id="a26"></span>
+            <script ez-screx="true">function a26() { document.getElementById("a26").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                27) Deflection can be controlled by using the appropriate
+
+            </h3>
+            <p>a) aspect ratio 
+
+            </p>
+            <p>b) span/depth ratio 
+
+            </p>
+            <p>c) modular ratio 
+
+            </p>
+            <p>d) water/cement ratio 
+
+            </p>
+            <button class="bttn" onclick="a27()">View Answer</button>
+            <span id="a27"></span>
+            <script ez-screx="true">function a27() { document.getElementById("a27").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>28) Shear span is defined as the zone where
+
+               
+            </h3>
+            <p>a) shear force is constant 
+
+            </p>
+            <p>b) 
+bending moment is constant 
+            </p>
+            <p>c) bending moment is zero
+
+            </p>
+            <p>d) shear force is zero 
+
+            </p>
+            <button class="bttn" onclick="a28()">View Answer</button>
+            <span id="a28"></span>
+            <script ez-screx="true">function a28() { document.getElementById("a28").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>29) From limiting deflection point of view, use of high strength steel in RC beam results in
+
+               
+            </h3>
+            <p>a) no change in depth 
+
+            </p>
+            <p>b) increase in width 
+
+            </p>
+            <p>c) reduction in depth 
+
+            </p>
+            <p>d) increase in depth 
+
+            </p>
+            <button class="bttn" onclick="a29()">View Answer</button>
+            <span id="a29"></span>
+            <script ez-screx="true">function a29() { document.getElementById("a29").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>30) Case of 2-way slab, the limiting deflection of the slab is
+
+               
+            </h3>
+            <p>a) independent of long or short span 
+
+            </p>
+            <p>b) dependent on both long and short spans 
+
+            </p>
+            <p>c) primarily a function of the short span 
+
+            </p>
+            <p>d) primarily a function of the long span 
+
+            </p>
+            <button class="bttn" onclick="a30()">View Answer</button>
+            <span id="a30"></span>
+            <script ez-screx="true">function a30() { document.getElementById("a30").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>31) Yield line theory results in
+
+               
+            </h3>
+            <p>a) lower bound solution 
+
+            </p>
+            <p>b) upper bound solution
+
+            </p>
+            <p>c) unique solution
+
+            </p>
+            <p>d) elastic solution
+
+            </p>
+            <button class="bttn" onclick="a31()">View Answer</button>
+            <span id="a31"></span>
+            <script ez-screx="true">function a31() { document.getElementById("a31").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>32) Deep beams are designed for
+
+               
+            </h3>
+            <p>a) 
+shear force only 
+            </p>
+            <p>b) bending moment only 
+
+            </p>
+            <p>c) both shear force and bending moment
+
+            </p>
+            <p>d) bearing
+
+            </p>
+            <button class="bttn" onclick="a32()">View Answer</button>
+            <span id="a32"></span>
+            <script ez-screx="true">function a32() { document.getElementById("a32").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                33) Loss of stress with time at constant strain in steel is called
+
+            </h3>
+            <p>a) 
+creep 
+            </p>
+            <p>b) ductility 
+
+            </p>
+            <p>c) shrinkage 
+
+            </p>
+            <p>d) relaxation 
+
+            </p>
+            <button class="bttn" onclick="a33()">View Answer</button>
+            <span id="a33"></span>
+            <script ez-screx="true">function a33() { document.getElementById("a33").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>34) The side face reinforcement, if required in a T-beam will be
+
+               
+            </h3>
+            <p>a) 0.1% of the web area 
+
+            </p>
+            <p>b) 0.15% of the web area 
+
+            </p>
+            <p>c) 0.2% to 0.3% of the web area depending upoon the breadth of the web 
+
+            </p>
+            <p>d) half the longitudinal reinforcement
+
+            </p>
+            <button class="bttn" onclick="a34()">View Answer</button>
+            <span id="a34"></span>
+            <script ez-screx="true">function a34() { document.getElementById("a34").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>35) The purpose of lateral ties in short RC columns is to
+
+               
+            </h3>
+            <p>a) facilitate construction 
+
+            </p>
+            <p>b) facilitate compaction of concrete 
+
+            </p>
+            <p>c) avoid buckling of longitudinal bars 
+
+            </p>
+            <p>d) increase the load carrying capacity of the columns 
+
+            </p>
+            <button class="bttn" onclick="a35()">View Answer</button>
+            <span id="a35"></span>
+            <script ez-screx="true">function a35() { document.getElementById("a35").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>36) Shape of idealized stress-strain curve for concrete as prescribed by IS : 456—1978 is
+
+               
+            </h3>
+            <p>a) rectangular 
+
+            </p>
+            <p>b) parabolic 
+
+            </p>
+            <p>c) rectangular- parabolic 
+
+            </p>
+            <p>d) 
+none of the above 
+            </p>
+            <button class="bttn" onclick="a36()">View Answer</button>
+            <span id="a36"></span>
+            <script ez-screx="true">function a36() { document.getElementById("a36").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>37) The compressive strength of c determined from 150 mm x 150 cylinders as compared to that dete from 150 mm cubes is
+
+               
+            </h3>
+            <p>a) more 
+
+            </p>
+            <p>b) less 
+
+            </p>
+            <p>c) equal 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a37()">View Answer</button>
+            <span id="a37"></span>
+            <script ez-screx="true">function a37() { document.getElementById("a37").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                38) The compressive strength of concrete determined from 150 mm x 150 mm cylinder as compared to that determined 150mm X 300mm cylinders is
+
+            </h3>
+            <p>a) 
+more 
+            </p>
+            <p>b) less 
+
+            </p>
+            <p>c) equal 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a38()">View Answer</button>
+            <span id="a38"></span>
+            <script ez-screx="true">function a38() { document.getElementById("a38").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>39) For a given degree of hydration, of increasing water-cement concrete
+
+               
+            </h3>
+            <p>a) is to increase permeability 
+
+            </p>
+            <p>b) is to decrease permeability
+
+            </p>
+            <p>c) doesnot change permeability
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a39()">View Answer</button>
+            <span id="a39"></span>
+            <script ez-screx="true">function a39() { document.getElementById("a39").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>40) For a given water-cement ratio in concrete, with passage of time, the permeability
+
+               
+            </h3>
+            <p>a) increases 
+
+            </p>
+            <p>b) decreases 
+
+            </p>
+            <p>c) doesnot change 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a40()">View Answer</button>
+            <span id="a40"></span>
+            <script ez-screx="true">function a40() { document.getElementById("a40").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>41) Curing period required is minimum for the concrete using
+
+               
+            </h3>
+            <p>a) low heat Portland cement 
+
+            </p>
+            <p>b) Portland slag cement 
+
+            </p>
+            <p>c) Rapid hardening cement 
+
+            </p>
+            <p>d) Ordinary Portland cement 
+
+            </p>
+            <button class="bttn" onclick="a41()">View Answer</button>
+            <span id="a41"></span>
+            <script ez-screx="true">function a41() { document.getElementById("a41").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>42) In concrete mix design, allowance for bulking of sand is necessary in case of
+
+               
+            </h3>
+            <p>a) volume batching only 
+
+            </p>
+            <p>b) 
+weight batching only 
+            </p>
+            <p>c) both (a) and (b)
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a42()">View Answer</button>
+            <span id="a42"></span>
+            <script ez-screx="true">function a42() { document.getElementById("a42").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>43) Minimum water-cement ratio required for full hydration of cement is
+
+               
+            </h3>
+            <p>a) 0.60
+
+            </p>
+            <p>b) 0.23 
+
+            </p>
+            <p>c) 
+0.45 
+            </p>
+            <p>d) 0.36 
+
+            </p>
+            <button class="bttn" onclick="a43()">View Answer</button>
+            <span id="a43"></span>
+            <script ez-screx="true">function a43() { document.getElementById("a43").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>44) For a constant water-cement ratio, decrease in aggregate-cement ratio causes
+
+               
+            </h3>
+            <p>a) increase in workability 
+
+            </p>
+            <p>b) decrease in workability
+
+            </p>
+            <p>c) no change in workability
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a44()">View Answer</button>
+            <span id="a44"></span>
+            <script ez-screx="true">function a44() { document.getElementById("a44").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                45) Soundness test of cement by Le- Chatelier’s apparatus gives unsoundness due to
+
+            </h3>
+            <p>a) 
+free lime only 
+            </p>
+            <p>b) Magnesia only  
+
+            </p>
+            <p>c) 
+both free lime and magnesia 
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a45()">View Answer</button>
+            <span id="a45"></span>
+            <script ez-screx="true">function a45() { document.getElementById("a45").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                46) If the angularity number of an aggregate is increased, then the workability of the concrete using this aggregate will
+
+            </h3>
+            <p>a) increase 
+
+            </p>
+            <p>b) decrease 
+
+            </p>
+            <p>c) not change 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a46()">View Answer</button>
+            <span id="a46"></span>
+            <script ez-screx="true">function a46() { document.getElementById("a46").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>47) For a given aggregate content, increasing the water-cement ratio in concrete
+
+               
+            </h3>
+            <p>a) increases shrinkage 
+
+            </p>
+            <p>b) decreases shrinkage 
+
+            </p>
+            <p>c) does not change shrinkage 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a47()">View Answer</button>
+            <span id="a47"></span>
+            <script ez-screx="true">function a47() { document.getElementById("a47").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>48) Endurance limit of mild steel is approximately equal to
+
+               
+            </h3>
+            <p>a) 
+0.8
+            </p>
+            <p>b) 0.7 
+
+            </p>
+            <p>c) 0.3 
+
+            </p>
+            <p>d) 0.5 
+
+            </p>
+            <button class="bttn" onclick="a48()">View Answer</button>
+            <span id="a48"></span>
+            <script ez-screx="true">function a48() { document.getElementById("a48").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                49) Which of the following has high strength?
+
+            </h3>
+            <p>a) 
+plain hot rolled wires 
+            </p>
+            <p>b) 
+cold drawn wires 
+            </p>
+            <p>c) heat treated rolled wires 
+
+            </p>
+            <p>d) all have same tensile strength 
+
+            </p>
+            <button class="bttn" onclick="a49()">View Answer</button>
+            <span id="a49"></span>
+            <script ez-screx="true">function a49() { document.getElementById("a49").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>50) In a spherical dome the hoop stress due to a concentrated load at crown is
+
+               
+            </h3>
+            <p>a) compressive everywhere 
+
+            </p>
+            <p>b) tensile everywhere 
+
+            </p>
+            <p>c) 
+partly compressive and partly tensile 
+            </p>
+            <p>d) zero 
+
+            </p>
+            <button class="bttn" onclick="a50()">View Answer</button>
+            <span id="a50"></span>
+            <script ez-screx="true">function a50() { document.getElementById("a50").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>51) In a spherical dome subjected to concentrated load at crown or uniformly distributed load, the meridional force is always
+
+               
+            </h3>
+            <p>a) 
+tensile 
+            </p>
+            <p>b) zero 
+
+            </p>
+            <p>c) tensile or compressive 
+
+            </p>
+            <p>d) compressive 
+
+            </p>
+            <button class="bttn" onclick="a51()">View Answer</button>
+            <span id="a51"></span>
+            <script ez-screx="true">function a51() { document.getElementById("a51").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>52) For bars in tension, a standard hook h anchorage value equivalent to a length of
+
+               
+            </h3>
+            <p>a) 8 dia 
+
+            </p>
+            <p>b) 
+12 dia 
+            </p>
+            <p>c) 
+16 dia 
+            </p>
+            <p>d) 24 dia 
+
+            </p>
+            <button class="bttn" onclick="a52()">View Answer</button>
+            <span id="a52"></span>
+            <script ez-screx="true">function a52() { document.getElementById("a52").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>53) The maximum compressive stress in concrete for design purposes is based on a partial safety factor of
+
+               
+            </h3>
+            <p>a) 1.85
+
+            </p>
+            <p>b) 1.50
+
+            </p>
+            <p>c) 1.15
+
+            </p>
+            <p>d) 2.20
+
+            </p>
+            <button class="bttn" onclick="a53()">View Answer</button>
+            <span id="a53"></span>
+            <script ez-screx="true">function a53() { document.getElementById("a53").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>54) According to Whitney’s theory, ultimate strain of concrete is assumed to be
+
+               
+            </h3>
+            <p>a) 
+3% 
+            </p>
+            <p>b) 0.03%
+
+            </p>
+            <p>c) 0.1%
+
+            </p>
+            <p>d) 0.3%
+
+            </p>
+            <button class="bttn" onclick="a54()">View Answer</button>
+            <span id="a54"></span>
+            <script ez-screx="true">function a54() { document.getElementById("a54").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>55) The load factors for live load and dead load are taken respectively as
+
+               
+            </h3>
+            <p>a) 
+1.5 and 1.5 
+            </p>
+            <p>b) 22 and 22
+
+            </p>
+            <p>c) 2.2 and 1.5 
+
+            </p>
+            <p>d) 1.5 and 2.2
+
+            </p>
+            <button class="bttn" onclick="a55()">View Answer</button>
+            <span id="a55"></span>
+            <script ez-screx="true">function a55() { document.getElementById("a55").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                56) Which of the following R.C. retaining walls is suitable for heights beyond 6m?
+
+            </h3>
+            <p>a) L- shaped wall 
+
+            </p>
+            <p>b) T- shaped wall 
+
+            </p>
+            <p>c) Counterfort type 
+
+            </p>
+            <p>d) all of the above 
+
+            </p>
+            <button class="bttn" onclick="a56()">View Answer</button>
+            <span id="a56"></span>
+            <script ez-screx="true">function a56() { document.getElementById("a56").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>57) For the design of retaining walls, the minimum factor of safety against over- turning is taken as
+
+               
+            </h3>
+            <p>a) 
+1.5 
+            </p>
+            <p>b) 2.0
+
+            </p>
+            <p>c) 
+2.5
+            </p>
+            <p>d) 3.0
+
+            </p>
+            <button class="bttn" onclick="a57()">View Answer</button>
+            <span id="a57"></span>
+            <script ez-screx="true">function a57() { document.getElementById("a57").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>58) The load carrying capacity of a helically reinforced column as compared to that of a tied column is about
+
+               
+            </h3>
+            <p>a) 5% less 
+
+            </p>
+            <p>b) 10% less 
+
+            </p>
+            <p>c) 10% more 
+
+            </p>
+            <p>d) 5% more
+
+            </p>
+            <button class="bttn" onclick="a58()">View Answer</button>
+            <span id="a58"></span>
+            <script ez-screx="true">function a58() { document.getElementById("a58").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>59) The minimum cover to the ties or span should not be less than
+
+               
+            </h3>
+            <p>a) 15 mm
+
+            </p>
+            <p>b) 20 mm
+
+            </p>
+            <p>c) 25 mm
+
+            </p>
+            <p>d) 50 mm
+
+            </p>
+            <button class="bttn" onclick="a59()">View Answer</button>
+            <span id="a59"></span>
+            <script ez-screx="true">function a59() { document.getElementById("a59").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>60) The limits of percentage p of the longitudinal reinforcement in a column given by
+
+               
+            </h3>
+            <p>a) 0.8% to 6%
+
+            </p>
+            <p>b) 0.8% to 8%
+
+            </p>
+            <p>c) 0.8% to 4%
+
+            </p>
+            <p>d) 0.15% to 2% 
+
+            </p>
+            <button class="bttn" onclick="a60()">View Answer</button>
+            <span id="a60"></span>
+            <script ez-screx="true">function a60() { document.getElementById("a60").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>61) When shear stress exceeds the permissible limit in a slab, then it is reduced by
+
+               
+            </h3>
+            <p>a) using high strength steel 
+
+            </p>
+            <p>b) using thinner bars but more in number 
+
+            </p>
+            <p>c) increasing the depth 
+
+            </p>
+            <p>d) providing shear reinforcement
+
+            </p>
+            <button class="bttn" onclick="a61()">View Answer</button>
+            <span id="a61"></span>
+            <script ez-screx="true">function a61() { document.getElementById("a61").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>62) The main reason for providing number of reinforcing bars at a support in a simply supported beam is to resist in that zone
+
+               
+            </h3>
+            <p>a) shear stress 
+
+            </p>
+            <p>b) compressive stress 
+
+            </p>
+            <p>c) tensile stress 
+
+            </p>
+            <p>d) bond stress 
+
+            </p>
+            <button class="bttn" onclick="a62()">View Answer</button>
+            <span id="a62"></span>
+            <script ez-screx="true">function a62() { document.getElementById("a62").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>63) In working stress design, permissible bond stress in the case of deformed bars is more than that in plain bars by
+
+               
+            </h3>
+            <p>a) 20%
+
+            </p>
+            <p>b) 30%
+
+            </p>
+            <p>c) 10%
+
+            </p>
+            <p>d) 40%
+
+            </p>
+            <button class="bttn" onclick="a63()">View Answer</button>
+            <span id="a63"></span>
+            <script ez-screx="true">function a63() { document.getElementById("a63").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>64) The slab is designed as one way if the ratio of long span to short span is
+
+               
+            </h3>
+            <p>a) between 1 and 1.5 
+
+            </p>
+            <p>b) between 1.5 and 2
+
+            </p>
+            <p>c) greater tnan 2
+
+            </p>
+            <p>d) less than 1
+
+            </p>
+            <button class="bttn" onclick="a64()">View Answer</button>
+            <span id="a64"></span>
+            <script ez-screx="true">function a64() { document.getElementById("a64").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>65) Ratio of permissible stress in direct compression and bending compression is
+
+               
+            </h3>
+            <p>a) less than 1
+
+            </p>
+            <p>b) between 1.5 and 2.0
+
+            </p>
+            <p>c) greater than 2
+
+            </p>
+            <p>d) between 1 and 1.5 
+
+            </p>
+            <button class="bttn" onclick="a65()">View Answer</button>
+            <span id="a65"></span>
+            <script ez-screx="true">function a65() { document.getElementById("a65").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                66) Minimum thickness of load bearing RCC wall should be
+
+            </h3>
+            <p>a) 50 mm 
+
+            </p>
+            <p>b) 100 mm
+
+            </p>
+            <p>c) 150 mm
+
+            </p>
+            <p>d) 200 mm
+
+            </p>
+            <button class="bttn" onclick="a66()">View Answer</button>
+            <span id="a66"></span>
+            <script ez-screx="true">function a66() { document.getElementById("a66").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>67) The ratio of the diameter of reinforcement bars and the slab thickness is
+
+               
+            </h3>
+            <p>a) 1/4
+
+            </p>
+            <p>b) 1/6
+
+            </p>
+            <p>c) 1/8
+
+            </p>
+            <p>d) 1/5
+
+            </p>
+            <button class="bttn" onclick="a67()">View Answer</button>
+            <span id="a67"></span>
+            <script ez-screx="true">function a67() { document.getElementById("a67").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>68) For a reinforced concrete section, shape of shear stress diagram is
+
+               
+            </h3>
+            <p>a) rectangular above neutral axis and parabolic below neutral axis 
+
+            </p>
+            <p>b) wholly parabolic 
+
+            </p>
+            <p>c) wholly rectangular 
+
+            </p>
+            <p>d) parabolic above neutral axis rectangular below neutral axis 
+
+            </p>
+            <button class="bttn" onclick="a68()">View Answer</button>
+            <span id="a68"></span>
+            <script ez-screx="true">function a68() { document.getElementById("a68").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>69) Diagonal tension in a beam
+
+               
+            </h3>
+            <p>a) is maximum at neutral axis 
+
+            </p>
+            <p>b) decreases below the neutral axis and increases above the neutral axis 
+
+            </p>
+            <p>c) increases below the neutral axis and decreases above the neutral axis 
+
+            </p>
+            <p>d) remains same 
+
+            </p>
+            <button class="bttn" onclick="a69()">View Answer</button>
+            <span id="a69"></span>
+            <script ez-screx="true">function a69() { document.getElementById("a69").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>70) If the permissible stress in steel in tension is 140 N/mm<sup>2</sup>, then the depth of neutral Axis for a singly reinforced rectangular balanced section will be
+
+               
+            </h3>
+            <p>a) 0.35d 
+
+            </p>
+            <p>b) 0.40d 
+
+            </p>
+            <p>c) 0.45d 
+
+            </p>
+            <p>d) dependent on grade of concrete also 
+
+            </p>
+            <button class="bttn" onclick="a70()">View Answer</button>
+            <span id="a70"></span>
+            <script ez-screx="true">function a70() { document.getElementById("a70").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>71) Modulus of elasticity of steel as per IS: 456-1978 shall be taken as
+
+               
+            </h3>
+            <p>a) 200 KN/mm<sup>2</sup>
+
+            </p>
+            <p>b) 2 x 10<sup>6</sup> N/cm<sup>2</sup>
+
+            </p>
+            <p>c) 200 KN/cm<sup>2</sup>
+
+            </p>
+            <p>d) 20 KN/cm<sup>2</sup>
+
+            </p>
+            <button class="bttn" onclick="a71()">View Answer</button>
+            <span id="a71"></span>
+            <script ez-screx="true">function a71() { document.getElementById("a71").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>72) For concreting of heavily reinforced sections without vibration, the workability of concrete expressed as compacting factor should be
+
+               
+            </h3>
+            <p>a) 0.75 - 0.80
+
+            </p>
+            <p>b) 0.80 - 0.85
+
+            </p>
+            <p>c) 0.85 - 0.92
+
+            </p>
+            <p>d) above 0.92 
+
+            </p>
+            <button class="bttn" onclick="a72()">View Answer</button>
+            <span id="a72"></span>
+            <script ez-screx="true">function a72() { document.getElementById("a72").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>73) In case of hand mixing of concrete, the extra cement to be added is
+
+               
+            </h3>
+            <p>a) 10% 
+
+            </p>
+            <p>b) 
+5%
+            </p>
+            <p>c) 15% 
+
+            </p>
+            <p>d) 20%
+
+            </p>
+            <button class="bttn" onclick="a73()">View Answer</button>
+            <span id="a73"></span>
+            <script ez-screx="true">function a73() { document.getElementById("a73").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>74) For walls, columns and vertical faces of all structural members, the form work is generally removed after
+
+               
+            </h3>
+            <p>a) 3 days 
+
+            </p>
+            <p>b) 14 days 
+
+            </p>
+            <p>c) 24 to 48 hours 
+
+            </p>
+            <p>d) 7 days 
+
+            </p>
+            <button class="bttn" onclick="a74()">View Answer</button>
+            <span id="a74"></span>
+            <script ez-screx="true">function a74() { document.getElementById("a74").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>75) In a reinforced concrete retaining wall, a shear key is provided, if the
+
+               
+            </h3>
+            <p>a) retaining wall is not safe against sliding 
+
+            </p>
+            <p>b) shear force in the toe slab is more than that in the heel slab
+
+            </p>
+            <p>c) retaining wall is not safe against overturning 
+
+            </p>
+            <p>d) shear stress in the vertical stem is excessive 
+
+            </p>
+            <button class="bttn" onclick="a75()">View Answer</button>
+            <span id="a75"></span>
+            <script ez-screx="true">function a75() { document.getElementById("a75").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>76) A reinforced cantilever beam of span 4 m, has a cross-section of 150×500 mm. If checked for lateral stability and deflection, the beam will
+
+               
+            </h3>
+            <p>a) 
+fall in lateral stability only 
+            </p>
+            <p>b) satisfy the requirements of deflection and lateral stability 
+
+            </p>
+            <p>c) fall in deflection only 
+
+            </p>
+            <p>d) fall in both deflection and lateral stability 
+
+            </p>
+            <button class="bttn" onclick="a76()">View Answer</button>
+            <span id="a76"></span>
+            <script ez-screx="true">function a76() { document.getElementById("a76").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>77) The maximum spacing of vertical reinforcement in RCC wall should not exceed
+
+               
+            </h3>
+            <p>a) 
+the thickness of wall 
+            </p>
+            <p>b) 1.5 times the thickness of wall 
+
+            </p>
+            <p>c) 2 times the thickness of wall 
+
+            </p>
+            <p>d) 3 times the thickness of wall 
+
+            </p>
+            <button class="bttn" onclick="a77()">View Answer</button>
+            <span id="a77"></span>
+            <script ez-screx="true">function a77() { document.getElementById("a77").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>
+                78) In an RCC beam, side face reinforcement is provided if its depth exceeds
+
+            </h3>
+            <p>a) 300 mm 
+
+            </p>
+            <p>b) 500 mm 
+
+            </p>
+            <p>c) 750 mm 
+
+            </p>
+            <p>d) 700 mm 
+
+            </p>
+            <button class="bttn" onclick="a78()">View Answer</button>
+            <span id="a78"></span>
+            <script ez-screx="true">function a78() { document.getElementById("a78").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>79) Flexural collapse in over reinforced beams is due to
+
+               
+            </h3>
+            <p>a) primary compression failure 
+
+            </p>
+            <p>b) bond failure 
+
+            </p>
+            <p>c) primary tension failure 
+
+            </p>
+            <p>d) secondary compression failure 
+
+            </p>
+            <button class="bttn" onclick="a79()">View Answer</button>
+            <span id="a79"></span>
+            <script ez-screx="true">function a79() { document.getElementById("a79").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>80) Shrinkage deflections in case of rectangular beams and slabs can be eliminated by putting
+
+               
+            </h3>
+            <p>a) compression steel 25% greater than tensile steel 
+
+            </p>
+            <p>b) compression steel more than tensile steel 
+
+            </p>
+            <p>c) compression steel equal to tensile steel 
+
+            </p>
+            <p>d) compression steel less than tensile steel 
+
+            </p>
+            <button class="bttn" onclick="a80()">View Answer</button>
+            <span id="a80"></span>
+            <script ez-screx="true">function a80() { document.getElementById("a80").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>81) In limit state design, permissible bond stress in the case of deformed bars is more
+
+               
+            </h3>
+            <p>a) 40%
+
+            </p>
+            <p>b) 50%
+
+            </p>
+            <p>c) 25%
+
+            </p>
+            <p>d) 60%
+
+            </p>
+            <button class="bttn" onclick="a81()">View Answer</button>
+            <span id="a81"></span>
+            <script ez-screx="true">function a81() { document.getElementById("a81").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>82) Pre-stressed concrete is more desirable in case of
+
+               
+            </h3>
+            <p>a) cylindrical pipe subjected to internal fluid pressure 
+
+            </p>
+            <p>b) cylindrical pipe subject to end pressures 
+
+            </p>
+            <p>c) cylindrical pipe subjected to equal internal and external fluid pressures 
+
+            </p>
+            <p>d) cylindrical pipe subjected to external fluid pressure 
+
+            </p>
+            <button class="bttn" onclick="a82()">View Answer</button>
+            <span id="a82"></span>
+            <script ez-screx="true">function a82() { document.getElementById("a82").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>83) In a doubly reinforced rectangular beam, the allowable stress in compression steel is
+
+               
+            </h3>
+            <p>a) not related to the permissible concrete compression stress 
+
+            </p>
+            <p>b) less than the permissible stress in steel 
+
+            </p>
+            <p>c) more than the permissible stress in tension in steel 
+
+            </p>
+            <p>d) equal to the permissible stress in tension in steel 
+
+            </p>
+            <button class="bttn" onclick="a83()">View Answer</button>
+            <span id="a83"></span>
+            <script ez-screx="true">function a83() { document.getElementById("a83").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>84) The diagonal tension which results ultimate failure due to development diagonal tension cracks, depends on
+
+               
+            </h3>
+            <p>a) 
+shear span 
+            </p>
+            <p>b) effective depth 
+
+            </p>
+            <p>c) both (a) and (b)
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a84()">View Answer</button>
+            <span id="a84"></span>
+            <script ez-screx="true">function a84() { document.getElementById("a84").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>85) For reinforced concrete exposed to sulphate attack minimum grade required is
+
+               
+            </h3>
+            <p>a) 
+M 25 
+            </p>
+            <p>b) 
+M 10 
+            </p>
+            <p>c) M 15 
+
+            </p>
+            <p>d) M 20 
+
+            </p>
+            <button class="bttn" onclick="a85()">View Answer</button>
+            <span id="a85"></span>
+            <script ez-screx="true">function a85() { document.getElementById("a85").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>86) minimum period stipulated for moist curing of concrete using ordinary Portland cement is
+
+               
+            </h3>
+            <p>a) 3 days 
+
+            </p>
+            <p>b) 
+7 days 
+            </p>
+            <p>c) 14 days 
+
+            </p>
+            <p>d) 28 days 
+
+            </p>
+            <button class="bttn" onclick="a86()">View Answer</button>
+            <span id="a86"></span>
+            <script ez-screx="true">function a86() { document.getElementById("a86").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>87) Addition of sugar in concrete (about 0.05% of weight of cement) results in
+
+               
+            </h3>
+            <p>a) incresing the setting time by about 1 hour 
+
+            </p>
+            <p>b) decreasing the setting time by about 1 hour 
+
+            </p>
+            <p>c) increasing the setting time by about 4 hours 
+
+            </p>
+            <p>d) decreasing the setting time by about 4 hours 
+
+            </p>
+            <button class="bttn" onclick="a87()">View Answer</button>
+            <span id="a87"></span>
+            <script ez-screx="true">function a87() { document.getElementById("a87").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>88) the limit of loss on ignition for ordinary Portland cement is
+
+               
+            </h3>
+            <p>a) 5% 
+
+            </p>
+            <p>b) 4% 
+
+            </p>
+            <p>c) 6% 
+
+            </p>
+            <p>d) 3% 
+
+            </p>
+            <button class="bttn" onclick="a88()">View Answer</button>
+            <span id="a88"></span>
+            <script ez-screx="true">function a88() { document.getElementById("a88").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>89) Maximum permissible limit of magnesia content in ordinary Portland cement is
+
+               
+            </h3>
+            <p>a) 4% 
+
+            </p>
+            <p>b) 6% 
+
+            </p>
+            <p>c) 8% 
+
+            </p>
+            <p>d) 10% 
+
+            </p>
+            <button class="bttn" onclick="a89()">View Answer</button>
+            <span id="a89"></span>
+            <script ez-screx="true">function a89() { document.getElementById("a89").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>90) Increase in fineness modulus of aggregate indicates
+
+               
+            </h3>
+            <p>a) 
+finer grading 
+            </p>
+            <p>b) coarse grading 
+
+            </p>
+            <p>c) gap grading 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a90()">View Answer</button>
+            <span id="a90"></span>
+            <script ez-screx="true">function a90() { document.getElementById("a90").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>91) If the contributions of tri-calcium silicate, di-calcium silicate, tri-calcium aluminate and tetra calcium alumino ferrite to the 28 days strength of hydrated ordinary Portland cement are respectively W, X, Y and Z, then
+
+               
+            </h3>
+            <p>a) W>X>Y>Z
+
+            </p>
+            <p>b) X>W>Y>Z
+
+            </p>
+            <p>c) W>X>Z>Y
+
+            </p>
+            <p>d) W>Y>X>Z
+
+            </p>
+            <button class="bttn" onclick="a91()">View Answer</button>
+            <span id="a91"></span>
+            <script ez-screx="true">function a91() { document.getElementById("a91").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>92) Impact strength of concrete is greater for
+
+               
+            </h3>
+            <p>a) water stored concrete than for dry concrete 
+
+            </p>
+            <p>b) angular crushed aggregates 
+
+            </p>
+            <p>c) rounded aggregates 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a92()">View Answer</button>
+            <span id="a92"></span>
+            <script ez-screx="true">function a92() { document.getElementById("a92").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>93) With the increase in rate of loading during testing, compressive strength of concrete
+
+               
+            </h3>
+            <p>a) 
+increases 
+            </p>
+            <p>b) decreases 
+
+            </p>
+            <p>c) remains same 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a93()">View Answer</button>
+            <span id="a93"></span>
+            <script ez-screx="true">function a93() { document.getElementById("a93").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>94) Normally pre-stressing wires are arranged in the
+
+               
+            </h3>
+            <p>a) upper part of the beam 
+
+            </p>
+            <p>b) lower part of the beam 
+
+            </p>
+            <p>c) center 
+
+            </p>
+            <p>d) anywhere 
+
+            </p>
+            <button class="bttn" onclick="a94()">View Answer</button>
+            <span id="a94"></span>
+            <script ez-screx="true">function a94() { document.getElementById("a94").innerHTML = "Option (b)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>95) Due to shrinkage stresses, a simply supported beam having reinforcement only at bottom tends to
+
+               
+            </h3>
+            <p>a) 
+deflect downward 
+            </p>
+            <p>b) deflect upward 
+
+            </p>
+            <p>c) deflect downward or upward 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a95()">View Answer</button>
+            <span id="a95"></span>
+            <script ez-screx="true">function a95() { document.getElementById("a95").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>96) If a beam fails in bond, then its bond strength can be increased most economically by
+
+               
+            </h3>
+            <p>a) increasing the depth of beam 
+
+            </p>
+            <p>b) using thicker bars but less in number 
+
+            </p>
+            <p>c) providing vertical stirrups 
+
+            </p>
+            <p>d) using thinner bars but more in number 
+
+            </p>
+            <button class="bttn" onclick="a96()">View Answer</button>
+            <span id="a96"></span>
+            <script ez-screx="true">function a96() { document.getElementById("a96").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>97) If the depth of actual neutral axis in a beam is more than the depth of critical neutral axis, then the beam is called
+
+               
+            </h3>
+            <p>a) balanced beam 
+
+            </p>
+            <p>b) under- reinforcement beam 
+
+            </p>
+            <p>c) over- reinforcement beam 
+
+            </p>
+            <p>d) none of the above 
+
+            </p>
+            <button class="bttn" onclick="a97()">View Answer</button>
+            <span id="a97"></span>
+            <script ez-screx="true">function a97() { document.getElementById("a97").innerHTML = "Option (c)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>98) Minimum grade of concrete to be used in reinforced concrete as per IS : 456-1978 is
+
+               
+            </h3>
+            <p>a) 
+M 15
+            </p>
+            <p>b) M 20 
+
+            </p>
+            <p>c) M 25 
+
+            </p>
+            <p>d) M 10 
+
+            </p>
+            <button class="bttn" onclick="a98()">View Answer</button>
+            <span id="a98"></span>
+            <script ez-screx="true">function a98() { document.getElementById("a98").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>99) the column or the strut is the member whose effective length is greater than
+
+               
+            </h3>
+            <p>a) 3 times the least lateral dimension 
+
+            </p>
+            <p>b) 2 times the least lateral dimension 
+
+            </p>
+            <p>c) 4 times the least lateral dimension 
+
+            </p>
+            <p>d) the least lateral dimension 
+
+            </p>
+            <button class="bttn" onclick="a99()">View Answer</button>
+            <span id="a99"></span>
+            <script ez-screx="true">function a99() { document.getElementById("a99").innerHTML = "Option (a)"; }</script>
+        </div>
+        <br>    <div class="entry-content" itemprop="text">
+            <h3>100) For a longitudinal reinforcing bar column, the minimum cover shall be less than the diameter of bar than
+
+               
+            </h3>
+            <p>a) 15 mm 
+
+            </p>
+            <p>b) 25 mm 
+
+            </p>
+            <p>c) 30 mm 
+
+            </p>
+            <p>d) 40 mm 
+
+            </p>
+            <button class="bttn" onclick="a100()">View Answer</button>
+            <span id="a100"></span>
+            <script ez-screx="true">function a100() { document.getElementById("a100").innerHTML = "Option (d)"; }</script>
+        </div>
+        <br>
+</main>
+
+<div class="bottom-container">
+    <div class="log1">
+        <img id="logo" src="./psclog.jpeg" alt="logo">
+        <p class="logodetail">Nepal Engineering Sewa |<span id="cpy">
+                &copy 2023 Nepal Engineering Sewa.
+            </span></p>
+    </div>
+
+    <div class="links">
+        <a class="footer-link" href="mailto:engineeringsewapsc@gmail.com"><img class="im" src="./mail.png"
+                alt="email"></a>
+        <a class="footer-link" href="https://www.facebook.com/profile.php?id=100092716204870&mibextid=ZbWKwL"><img
+                class="im" src="./facebook.png" alt="facebook"></a>
+        <a class="footer-link" href="https://www.instagram.com/nepalengineeringsewa/"><img class="im"
+                src="./insta.png" alt="instagram"></a>
+        <a class="footer-link" href="https://twitter.com/NepalEnggSewa" id="twit"><img class="im" src="./twitter.png"
+                alt="twitter"></a>
+        <!-- <a class="footer-link" href="https://www.tiktok.com/@nepal_engineering_sewa"><img class="im"
+                src="./tiktok.png" alt="tiktok"></a> -->
+        <a class="footer-link" href="https://www.youtube.com/@NepalEngineeringSewa"><img class="im"
+                src="./youtube.png" alt="youtube"></a>
+        <a class="footer-link" href=""><img class="im" src="./whatsapp.png" alt="whatsapp"></a>
+    </div>
+</div>
+
+
+
+
+<script src="./resp.js"></script>
+</body>
+
+
+</html>
