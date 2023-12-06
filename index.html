@@ -1,62 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anish Portfolio Website</title>
-    <link rel="stylesheet" href="./style.css">
-   
+    <title>Nepal Engineering Sewa </title>
+    <meta name="keywords" content="nepalengineeringsewa, NepalEngineeringSewa, NepalEnggSewa, nepal_engineering_sewa, Nepal Engineering Sewa">
+    <meta name="description" content="NepalEngineeringSewa is an educational website centered to help PSC appearing and license examination appearing students.">
+
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./exp.css">
+    <link rel="stylesheet" href="./landingpage.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+
+ @media only screen and (max-width:1006px){ 
+    #l_im{
+        display: none;
+    }
+    .herosection{
+        width: 100%;
+        margin: .5rem .1rem;
+        padding: .3rem .1rem;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+    }
+    .hero{
+       
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        padding: .1rem;
+        max-width: 95%;
+    }
+    .skills{
+        width: 98%;
+    }
+    .skill-row{
+        margin: .1rem;
+        padding: .1rem;
+    }
+  
+ }
+    </style>
 </head>
+
 <body>
     <header>
-        <nav class="hnav">
-            <div class="left ">Anish's Portfolio</div>
-            <div class="right ">
-                <ul>
-                   
-                    <li><a href="./resume.html">Resume</a></li>
-                    <li><a href="./project.html">Projects</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <!-- <li><a href="./blog.html">Blogs</a></li> -->
-                </ul>
-
+        <nav>
+            <div class="navigation h-nav-resp">
+                <div class="log1">
+                    <img id="logo" src="./psclog.jpeg" alt="logo">
+                    <p class="logodetail">Nepal Engineering Sewa </p>
+                </div>
+                <div class="log v-class-resp">
+                    <!-- <div class="items"><a href="./index.html">Home</a></div> -->
+                    <div ><a href="./index.html"><img class="items" id="home" src="./home.jpeg" alt="home"></a></div>
+                    <!-- <div class="items"><a href="./notice.html">Notices</a></div> -->
+                    <div class="items"><a href="./notes.html">Notes</a></div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">Notices
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            
+                            <a href="./vacancy.html">Vacancy</a>
+                            <a href="./writtenresult.html">Written Result</a>
+                            <a href="./posting.html">Posting</a>
+                            <a href="./others.html">Others</a>
+                        </div>
+                    </div>
+                    
+                    <div class="items"><a href="./gorkhapatra.html">Gorkhapatra</a></div>
+                    <!-- <div class="items"><a href="./mcq.html">MCQs</a></div> -->
+                    <div class="dropdown items">
+                        <button class="dropbtn ">MCQs
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            
+                            <a href="./seventhmcq.html">Engineer</a>
+                            <a href="./fifthmcq.html">Sub- Engineer</a>
+                            <a href="./fourthmcq.html">Asst. Sub-Engineer</a>
+                           
+                        </div>
+                    </div>
+                    <div class="dropdown items">
+                        <button class="dropbtn ">More
+                            <i class="fa fa-caret-down "></i>
+                        </button>
+                        <div class="dropdown-content ">
+                            
+                            <a href="./shortqns.html">Short Q&A</a>
+                            <a href="./qtnbank.html">Question Bank</a>
+                            <a href="./syllabus.html">Syllabus</a>
+                            <a href="./contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- <div class="burger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div> -->
+            <div class="burger">
+                <div class="line"> </div>
+                <div class="line"> </div>
+                <div class="line"> </div>
+            </div>
         </nav>
     </header>
+
     <main>
         <div class="herosection">
-            <div class="heroleft">Hello,<br>
-                I am <i class="ess">Anish Kumar Singh</i>,<br>
-                a passionate <span id="element"></span>
+            <div class="hero" id="int">
+                <h1><b>Welcome!</b></h1>
+                <br>
+
+                <p>We are delighted to have you here as you embark on your journey towards a successful career in the
+                    public service sector. Our goal is to provide you with comprehensive and reliable study material to help you
+                    excel in your PSC exams.</p>
+                <br>
+                <p>Through our user-friendly website, you will have easy access to these valuable resources. You can
+                    explore various subjects, download the notes, and even interact with fellow aspirants in our
+                    dedicated community forums. We believe in the power of collaboration and peer support, which is why
+                    we encourage you to actively participate and share your knowledge and experiences with others.</p>
+                <br>
+
+                <p>Happy studying!</p>
+                <p>Nepal Engineering Sewa Team</p>
             </div>
-                
-            <div class="heroright"><img id="ppp" src="./pppp-modified.png" height="300rem" width="300rem"  alt=""></div>
+            <div class="hero imgs" id="l_im">
+                <img src="./welcome.avif" alt="img">
+            </div>
         </div>
-        <div class="guff">
-            <p>Welcome to my portfolio website!</p><br>
-            <p> Here, you'll find a comprehensive collection of my work, skills, and experiences.This website serves as a platform to showcase my professional journey and highlight my accomplishments. </p><br>
-             <p>Within these pages, you can explore my CV, providing a detailed overview of my education, employment history, and qualifications.</p> <br>
-             <p>Additionally, you'll discover a diverse range of projects I have undertaken, demonstrating my expertise in various fields. Whether it's web development, graphic design, or creative writing, each project reflects my passion for innovation and attention to detail.</p><br>
-             <p> To get in touch with me or discuss potential collaborations, please refer to the contact links provided.</p> <br>
-             <p>Thank you for visiting, and I hope you enjoy exploring my portfolio!</p>
+        <hr>
+
+        <!-- <div class="herosection"> -->
+        <!-- <div class="hero imgs" id="whhy">
+                <img src="./whyus.jpeg" alt="img">
+            </div> -->
+        <div class="hero " id="int1">
+            <h2><b>Why we?</b></h2>
+            <p>When it comes to choosing a website for taking notes, there are several factors
+                that make your website an attractive option. Here's a short note outlining some of the reasons why users
+                might
+                choose your website:</p>
+
         </div>
+
+        <div class="skills">
+            <!-- <h2 id="mys">My Skills.</h2> -->
+            <div class="skill-row">
+                <img class="skillimg" id="draw" src="./friendly.png" alt="drawing-img">
+                <h3>User Friendly Interface</h3>
+                <p>Our website offers a simple and intuitive interface, making it easy for users to
+                    create, organize, and access their notes.</p>
+
+            </div>
+
+
+
+            <div class="skill-row">
+                <img class="skillimg " id="gui" src="./updated.png" alt="guitar-img" />
+                <h3>Updated Content</h3>
+                <p>Stay informed and engaged with regular content updates, ensuring you have access
+                    to the latest features and improvements.</p>
+
+
+            </div>
+
+            <div class="skill-row">
+                <img class="skillimg" id="draw2" src="./interractive.webp" alt="drawing-img">
+                <h3>Responsive Support Team</h3>
+                <p>Our dedicated customer support is ready to assist with your questions or
+                    concerns, ensuring you have a positive experience.</p>
+
+            </div>
+
+            <div class="skill-row">
+                <img class="skillimg " id="gui2" src="./reliable.webp" alt="guitar-img" />
+                <h3>Reliable and Accurate Information</h3>
+                <p>Count on accurate and dependable information with our regularly updated content,
+                    ensuring you have access to trustworthy resources.</p>
+
+            </div>
+            <!-- </div> -->
+
+        </div>
+
+
+
+        <hr>
+
+        <section class="text-gray-600 ">
+            <div class="containered px-5 py-24 mx-auto">
+                <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                        <path
+                            d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                        </path>
+                    </svg>
+                    <p class="leading-relaxed text-lg">As you embark on your journey of further studies, we, the entire
+                        team, want
+                        to extend our warmest wishes for success. Your dedication to education is inspiring, and we're
+                        proud to be a
+                        part of your academic journey.</p>
+                    <p class="leading-relaxed text-lg">May your hard work and commitment yield the best results, and may
+                        each page
+                        you turn and note you take bring you one step closer to your dreams. Remember, you've got the
+                        knowledge and
+                        tools at your fingertips, and we're here to support you every step of the way.</p>
+                    <p class="leading-relaxed text-lg">Best of luck with your studies, and may the pursuit of knowledge
+                        be as
+                        rewarding as the destination. We're cheering for your success!</p>
+                    <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+                    <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Nepal Engineering Sewa Team
+                    </h2>
+                    <!-- <p class="text-gray-500">Senior Product Designer</p> -->
+                </div>
+            </div>
+        </section>
     </main>
-    
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-          strings: ['<i class="ess">Web Developer.</i>'],
-          typeSpeed: 50,
-        });
-      </script>
-      <footer>
-        <p>&copy; All Rights Reserved 2023</p>
-      </footer>
-      <!-- <script src="./resp.js"></script> -->
+    <hr>
+    <script src="./resp.js"></script>
+
 </body>
+<div class="bottom-container">
+    <div class="log1">
+        <img id="logo" src="./psclog.jpeg" alt="logo">
+        <p class="logodetail">Nepal Engineering Sewa |<span id="cpy">
+                &copy 2023 Nepal Engineering Sewa. 
+            </span></p>
+    </div>
+
+    <div class="links">
+        <a class="footer-link" href="mailto:engineeringsewapsc@gmail.com"><img class="im" src="./mail.png"
+                alt="email"></a>
+        <a class="footer-link" href="https://www.facebook.com/profile.php?id=100092716204870&mibextid=ZbWKwL"><img
+             class="im" src="./facebook.png" alt="facebook"></a>
+        <a class="footer-link"
+            href="https://www.instagram.com/nepalengineeringsewa/"><img class="im"
+                src="./insta.png" alt="instagram"></a>
+        <a class="footer-link " id="twit" href="https://twitter.com/NepalEnggSewa"><img class="im" src="./twitter.png"
+                    alt="twitter"></a>
+        <!-- <a class="footer-link" href="https://www.tiktok.com/@nepal_engineering_sewa"><img class="im" src="./tiktok.png"
+                        alt="tiktok"></a> -->
+        <a class="footer-link"
+            href="https://www.youtube.com/@NepalEngineeringSewa"><img class="im"
+                src="./youtube.png" alt="youtube"></a>
+        <a class="footer-link"
+                href=""><img class="im"
+                    src="./whatsapp.png" alt="whatsapp"></a>
+    </div>
+</div>
+
 </html>
